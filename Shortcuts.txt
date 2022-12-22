@@ -1,0 +1,5 @@
+alt + shift + f = formating our code.
+Ctrl + "/" = write comment.
+При добавяне на снимка във VisualStudio:
+"." + "/" - отваряме текущата папка.
+"." + "." + "/" - отваряме дна папка назад.
