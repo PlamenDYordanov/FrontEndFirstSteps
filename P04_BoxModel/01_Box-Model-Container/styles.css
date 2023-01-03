@@ -1,0 +1,18 @@
+/* TODO: style the html */
+
+body {
+    background: lightslategray;
+    
+}
+p {
+    width: 300px;
+    margin: auto;
+    border: 2px solid #e6eaef;
+    color: whitesmoke;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #0F4069;
+}
