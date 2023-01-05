@@ -1,0 +1,31 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+header,
+nav,
+ul,
+li,
+h1 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+li {
+  margin-right: 20px;
+  font-size: 14px;
+}
+h1 {
+  margin-right: 70px;
+}
+ul {
+  color: rgb(47, 199, 136);
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+p {
+  font-size: 14px;
+}
