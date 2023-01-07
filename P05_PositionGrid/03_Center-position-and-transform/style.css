@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Georgia, serif;
+  background: rgb(238, 238, 238);
+  position: relative;
+}
+
+img  {
+    width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+section div:nth-child(2){
+    position: absolute;
+    
+    width: 700px;
+    height: 300px;
+    top:56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 1.2em;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+h3 {
+    padding-bottom: 30px;
+}
+a {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(0, 153, 0) ;
+    border-radius: 4px;
+    
+}
+
