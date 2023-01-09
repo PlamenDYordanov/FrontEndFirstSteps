@@ -1,0 +1,34 @@
+.container{
+    max-width: 65vw;
+}
+
+.container span {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.container-flex {
+    display: flex;
+}
+.container-flex .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+.workday__title, 
+.weekend__title {
+    width: 100%;
+}
+.week .workday {
+    width: 20%;
+}
+.week .weekend {
+    width: 50%;
+}
+.notes {
+    display: flex;
+    flex-direction: column;
+    
+}
+.notes .remainder,
+.notes .special {
+    height: 50%;
+}
