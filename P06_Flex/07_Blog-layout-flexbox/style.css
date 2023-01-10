@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+    width: 70%;
+}
+header{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid black;
+}
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase; 
+}
+div h2 {
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+}
+div p {
+    margin-bottom: 20px;
+}
+
+
+.block__first__article {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.block__first__article img {
+    float: right;
+    overflow: auto;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.block__second__article {
+    margin-bottom: 40px;
+}
+.parent {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0;
+
+}
+.parent .parent__p {
+   max-width: 45%;
+   border-right: 4px solid rgb(185, 185, 185); 
+    margin-right: 30px;
+    padding-right: 30px;
+}
+.parent .parent__blockquote {
+    color: rgb(185, 185, 185);
+    font-family: Georgia, serif ;
+   
+}
+.parent__blockquote__author {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.block__third__article img {
+    
+    float: left;
+    overflow: auto;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+div, aside {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+aside {
+    width: 15%;
+    padding-left: 60px
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+
