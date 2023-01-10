@@ -1,12 +1,13 @@
-.container{
-    max-width: 65vw;
+/* FLEX */
+.container {
+  max-width: 65vw;
 }
 
 .container span {
-    border: 1px solid black;
-    padding: 0.5rem;
+  border: 1px solid black;
+  padding: 0.5rem;
 }
-.container-flex {
+/* .container-flex {
     display: flex;
 }
 .container-flex .week {
@@ -31,4 +32,53 @@
 .notes .remainder,
 .notes .special {
     height: 50%;
+} */
+
+/* GRID */
+.container {
+  display: grid;
+}
+.container{
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 36px);
+  grid-template-areas:
+    "workday__title workday__title workday__title workday__title workday__title workday__title workday__title workday__title workday__title workday__title remainder remainder"
+    "mon mon thue thue wed wed thur thur fri fri remainder remainder"
+    "weekend__title weekend__title weekend__title weekend__title weekend__title weekend__title weekend__title weekend__title weekend__title weekend__title special special"
+    "sat sat sat sat sat sun sun sun sun sun special special";
+}
+.container .workday__title {
+  grid-area: workday__title;
+}
+.container .weekend__title {
+    grid-area: weekend__title;
+}
+.container .mon {
+  grid-area: mon;
+}
+.container .thue {
+  grid-area: thue;
+}
+.container .wed {
+  grid-area: wed;
+}
+.container .thur {
+  grid-area: thur;
+}
+.container .fri {
+  grid-area: fri;
+}
+.container .remainder {
+  grid-area: remainder;
+}
+
+.container .special {
+  grid-area: special;
+}
+.container .sat {
+  grid-area: sat;
+}
+.container .sun {
+  grid-area: sun;
 }
