@@ -1,19 +1,20 @@
 header,
 header nav ul {
   display: flex;
-}
-header {
   justify-content: space-between;
-  border-bottom: 2px solid rgb(0, 0, 0);
   margin: 20px 30px;
+}
+body header {
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 h1 {
   font-family: sans-serif;
   text-transform: uppercase;
 }
-header nav ul li {
+header nav ul li a{
+  text-decoration: none;
   padding-right: 20px;
-  color: rgb(68, 177, 104);
+  color: rgb(0, 153, 0);
   cursor: pointer;
 }
 
