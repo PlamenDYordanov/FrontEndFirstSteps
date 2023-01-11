@@ -2,20 +2,17 @@
 
  body {
     background-color: #eeeeee;
-    max-width: 100%;
+    max-width: 100v;
   }
   
  body, .gallery, .gallery__images, li{
     display: flex;
     flex-wrap: wrap;
-
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    
+   
   }
-  ul{
-  
-  }
-
   
   li {
     border: 9px solid black;
