@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('reset.css');
+@import url('header.css');
+@import url('hero_section.css');
+@import url('features.css');
+@import url('get_started.css');
+body {
+    font-family: 'Sora', sans-serif ;
+    background-color: #070e27;
+    
+
+}
+:root {
+  --clr-primari-900: #001a57;
+  --clr-primari-800: #00308f;
+  --clr-primari-600: #0059f7;
+  --clr-primari-300: #689eff;
+  --clr-primari-100: rgba(0, 89, 247, 0.16);
+
+  --clor-secondary-900: #66240a;
+  --clor-secondary-800: #c34b1e;
+  --clor-secondary-600: #f9724d;
+  --clor-secondary-300: #fbb6ab;
+  --clor-secondary-100: #fef1ef;
+
+  --clr-neutral-900: #070e27;
+  --clr-neutral-800: #081131;
+  --clr-neutral-700: #162044;
+  --clr-neutral-600: #4e5a85;
+  --clr-neutral-500: #7e8bb6;
+  --clr-neutral-300: #ccd2e9;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+button {
+  cursor: pointer;
+}
