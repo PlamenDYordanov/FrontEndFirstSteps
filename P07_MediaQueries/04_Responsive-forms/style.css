@@ -1,0 +1,95 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+form {
+  border: 2px solid silver;
+  width: 300px;
+  height: 150px;
+  position: relative;
+}
+section {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+}
+legend {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 5px;
+  border: 2px solid silver;
+  background-color: #fff;
+  width: 150px;
+  z-index: 2;
+}
+.username {
+  margin-top: 20px;
+  position: relative;
+  padding: 0;
+  font-weight: bold;
+}
+.fa-user {
+  position: absolute;
+  top: 10px;
+  left: 108px;
+}
+input {
+  text-indent: 25px;
+  width: 170px;
+}
+.password {
+  position: relative;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.password label {
+  padding-right: 4px;
+}
+.fa-key {
+  position: absolute;
+  top: 27px;
+  left: 108px;
+}
+div {
+  text-align: center;
+  padding: 20px 20px;
+}
+button {
+  margin-left: 35px;
+  padding: 0 12px;
+  background-color: rgb(88, 88, 88);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+}
+@media screen and (min-width: 500px) {
+  form {
+    width: 500px;
+    height: 200px;
+  }
+  input {
+    text-indent: 25px;
+    width: 350px;
+  }
+  .fa-key {
+    left: 125px;
+  }
+  .fa-user {
+    left: 125px;
+  }
+  section {
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+  }
+  legend {
+    font-size: 20px;
+  }
+  .username {
+    margin-top: 40px;
+  }
+}
