@@ -1,32 +1,63 @@
-/* @media all and (max-width: 500px) {
-    .header-wrapper {
-        left: 15px;
-        font-size: 14px;
-    }
-    
-    .timeline::after {
+@media all and (max-width: 500px) {
+  .header-wrapper {
+    left: 15px;
+    font-size: 14px;
+  }
+  .main-header {
+    justify-content: flex-start;
+  }
+
+  .timeline::after {
     left: 31px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  section,
+  article {
+    width: 70%;
+  }
+  .right {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .timeline > article:nth-child(odd) .timeline-panel h3 {
+    text-align: left;
+  }
+
+  .point {
+    position: relative;
+    top: 50px;
+    right: 10%;
+  }
+  .point-left1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: rgb(153, 153, 153);
+    top: 50px;
+    right: 16%;
+   
+    z-index: 10;
+  }
+  @media all and (max-width: 400px) {
+    html,.header-wrapper {
+        font-size: 12px;
     }
-
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }    
-
-    .left::after, .right::after {
-        left: 18px;
-    }
-
-    .right {
-        left: 0%;
-    }  
-
-    .left {
-        text-align: left;
-    }
-
-    .timeline > article:nth-child(odd) .timeline-panel h3 {
-        text-align: left;
-    }
-} */
+   
+   
+  }
+}
