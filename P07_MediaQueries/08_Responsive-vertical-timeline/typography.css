@@ -1,0 +1,69 @@
+.timeline {
+  border: 0.3em solid rgb(153, 153, 153);
+  position: relative;
+  max-width: 95%;
+  margin: 2em auto;
+}
+
+.timeline::after {
+  content: " ";
+  position: absolute;
+  width: 0.3em;
+  background-color: rgb(153, 153, 153);
+  top: 40px;
+  bottom: 0;
+  left: 50%;
+}
+
+.timeline h3 {
+  font-style: italic;
+  
+}
+.left {
+    text-align: right;
+  display: block;
+  width: 45%;
+}
+.right {
+  width: 45%;
+  margin-left: 55%;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 10px;
+  border: 2px solid rgb(153, 153, 153);
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.right::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+    background-color: green;
+    border-radius: 50%;
+    border: 0.3em solid rgb(153, 153, 153);
+    top: 10%
+} 
+.left::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+    background-color: orange;
+    border-radius: 50%;
+    border: 0.3em solid rgb(153, 153, 153);
+}
+
+
