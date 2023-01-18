@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Helvetica, sans-serif;
     background: rgb(236, 236, 236);
 }
@@ -22,7 +22,8 @@ td, tr {
 }
 tbody {
     width: 450px;
-}
+} 
+
 /* tbody tr:nth-child(3n) {
     background-color: rgb(236, 236, 236);
 }
@@ -37,4 +38,33 @@ tbody:nth-child(4) {
 .first-three {
     border-bottom: none;
     font-size: 20px;
+}
+@media screen and (min-width: 600px) {
+    .span {
+        display: none;
+    }
+    table{
+        display: table;
+        width: 80%;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        width: 100%;
+    }
+    thead {
+        color: #fff;
+        background-color: rgb(73, 73, 73);
+        display: table-header-group;
+    }
+      tr {
+        display: table-row;
+   }
+   tbody td {
+    width: 33%;
+    display: table-cell;
+   }
 }
