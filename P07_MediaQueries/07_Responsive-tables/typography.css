@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: rgb(236, 236, 236);
+}
+thead {
+    display: none
+}
+table, td, tr { 
+    display: block;
+}
+table {
+    display: flex;
+    justify-content: center;
+}
+
+td, tr {
+    border: 1px solid rgb(219, 219, 219);
+}
+.span {
+   font-weight: bold;
+    font-size: 20px;
+}
+tbody {
+    width: 450px;
+}
+/* tbody tr:nth-child(3n) {
+    background-color: rgb(236, 236, 236);
+}
+tbody:nth-child(4) {
+    background-color: white;
+} */
+.second-three {
+    border-top: none;
+    background-color: white;
+    font-size: 20px;
+}
+.first-three {
+    border-bottom: none;
+    font-size: 20px;
+}
