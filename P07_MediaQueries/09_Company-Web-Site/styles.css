@@ -9,45 +9,82 @@
 }
 
 body {
-/* TODO
-CSS Grid. Display grid. 
-Define the grid areas. 
-Create two unequal columns that sits next to each other 
-*/
+  display: grid;
+  grid-template-areas: 
+"header header header header"
+"nav nav nav nav"
+"aside aside main main"
+"footer footer footer footer";
 }
 
 /* TODO Reference the grid area */
+header {
+  grid-area: header;
+}
 /* TODO Reference the grid area */
+nav {
+  grid-area: nav;
+}
 /* TODO Reference the grid area */
+aside {
+  grid-area: aside
+}
 /* TODO Reference the grid area */
+main { 
+  grid-area: main
+}
 /* TODO Reference the grid area */
+footer {
+  grid-area: footer
+}
 
 body {
 /* TODO style the body*/
 }
 
 header { 
+  text-align: center;
+  width: 100%;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 60px;
+  margin: 0px;
 /* TODO style the header */
 }
 
 nav {
 /* TODO style the navigation bar*/
+background-color: #333;
+padding: 14px 26px;
+text-align: left;
 }
 
 nav a {
 /* TODO style the navigation bar links*/
+color: #fff;
+text-decoration: none;
+padding: 14px 20px;
+
+
 }
 
 aside {
 /* TODO style the sidebar*/
+background-color: #f1f1f1;
+padding: 20px;
 }
 
 main {
 /* TODO style the main*/
+background-color: #fff;
+padding: 20px;
 }
 
 footer{
 /* TODO style the footer*/
+text-align: center;
+padding: 20px;
+background-color: #ddd;
 }
 
 /* TODO Responsive layout - when the screen is less than 700px wide, 
@@ -56,3 +93,39 @@ make the two columns stack on top of each other instead of next to each other */
 /* TODO Responsive layout - If the screen is smaller than 700px, 
 display the navigation bar links as block and center the text */
 
+@media screen and (max-width: 1000px) {
+     body {
+      display: grid;
+      grid-template-areas: 
+      "header header header header"
+      "nav nav nav nav"
+      "aside aside aside aside"
+      "main main main main"
+      "footer footer footer footer";
+      grid-template-columns: 1fr;
+      width: 95%;
+      margin: 0 auto;
+}
+nav a {
+  display: block;
+  text-align: center;
+}
+/* TODO Reference the grid area */
+nav {
+  grid-area: nav;
+}
+/* TODO Reference the grid area */
+aside {
+  grid-area: aside
+}
+/* TODO Reference the grid area */
+main { 
+  grid-area: main
+}
+/* TODO Reference the grid area */
+footer {
+  grid-area: footer
+}
+}
+  
+ 

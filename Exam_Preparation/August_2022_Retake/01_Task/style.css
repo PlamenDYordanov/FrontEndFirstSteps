@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    font-family: 'Mulish', serif;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./images/form-background.png);
+    border-radius: 30px;
+    background-size: 900px;
+    width: 800px;
+    height: 600px;
+    padding-top: 80px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 5px 1px rgba(143,143,143,1);
+}
+label {
+    color: rgb(128, 128, 128);
+}
+.form {
+    width:  500px;
+}
+.first-row {
+    display: grid;
+    grid-template-areas:
+    "first second"
+    "fisrt-input second-input";
+    grid-template-columns: 200px 200px;
+}
+.first-name {
+    grid-area: first;
+}
+.last-name {
+    grid-area: second;
+}
+input {
+    width: 360px;
+    padding-top: 10px;
+    border: 1px solid rgb(189, 189, 189);
+   margin-top: 5px;
+  
+}
+input, button {
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50px;
+}
+.input-first-name {
+    width: 150px;
+}
+.input-last-name {
+    width: 150px;
+}
+
+.radio {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+button {
+    padding: 10px 30px;
+    background-color: rgb(185, 90, 0);
+    margin-left: 100px;
+    border: none;
+}
+.button {
+    color: white;
+}
+
