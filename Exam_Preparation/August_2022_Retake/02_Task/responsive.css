@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+      
+    }
+    header,
+    .navigation,
+    header nav ul li,
+    header img {
+      display: block;
+    }
+    nav {
+      text-align: center;
+      
+    }
+    header img {
+      margin: 0 auto;
+      margin-bottom: 15px;
+    
+    }
+    header {
+      width: 100%;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+    header li {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    .header-title h1 {
+        font-size: 40px;
+    }
+    .header-title {
+      padding-top: 0px;
+    }
+    .team-description ul {
+      display: grid;
+    }
+
+  }
