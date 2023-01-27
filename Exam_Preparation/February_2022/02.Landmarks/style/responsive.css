@@ -51,4 +51,7 @@
     display: block;
     width:30%
   }
+  .tm-description-box {
+    display: block;
+  }
 }
