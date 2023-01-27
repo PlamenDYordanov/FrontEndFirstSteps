@@ -1,0 +1,136 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+:root {
+  --clr-primary-lightgreen: #00d08e;
+  --clr-headings: #3d393a;
+}
+body {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header  header"
+    "left right"
+    "footer  footer";
+}
+header {
+  color: white;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+}
+
+.test {
+  background: linear-gradient(0, 0, 0, 0.6), url(./image/computer-main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: header;
+  width: 100%;
+  height: 100%;
+}
+.hero-container {
+
+  width: 100%;
+  height: 600px
+}
+.hero-container h1,
+.hero-container p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px -1px 0px rgba(0, 0, 0, 0.6);
+  font-size: 38px;
+}
+.hero-container h1 {
+  margin-bottom: 10px;
+}
+.hero-container p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.hero-title-container {
+  text-align: center;
+}
+.hero-container button {
+  background-color: var(--clr-primary-lightgreen);
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  margin-bottom: 50px;
+}
+.left-container h2 {
+  margin-bottom: 20px;
+  color: var(--clr-headings);
+}
+
+.small-img {
+  width: 100px;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "left-img right-info"
+    "left-info right-img"
+    "footer footer";
+    grid-template-columns: 1fr;
+  gap: 0px;
+}
+.test {
+  grid-area: header;
+}
+.image-left {
+  grid-area: left-img;
+  object-fit: cover;
+  margin: 0px;
+} 
+.image-left img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.right-info {
+  grid-area: right-info;
+}
+.left-info {
+  grid-area: left-info;
+  margin: 0 auto;
+}
+.image-right {
+  grid-area: right-img;
+}
+.image-right img {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+}
+footer {
+  grid-area: footer;
+}
+.left-info h2 {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 48px;
+color: var(--clr-headings);
+}
+
+.info-image {
+    display: grid; 
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth sixth";
+    color: var(--clr-primary-lightgreen);
+    font-size: 30px;
+    gap: 60px;
+}
+div .info-image img {
+    margin: 0 auto;
+}
+div .info-image p {
+    text-align: center;
+}
