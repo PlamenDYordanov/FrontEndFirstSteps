@@ -1,0 +1,66 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 100px;
+}
+.main-container {
+  display: flex;
+  box-shadow: 1px 2px 15px 0px grey;
+  max-width: 870px;
+  height: 430px;
+  margin: 0 auto;
+}
+.right-container {
+  background-image: url(./image/kiwi-smoothie.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  align-self: center;
+}
+.left-container {
+    background-image: url(./image/image1.png);
+   
+  width: 450px;
+  height: 400px;
+  align-self: center;
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.border {
+    margin: 0 auto;
+    width: 90%;
+    height: 1px;
+    border: 1px solid green;
+    border-style: dotted;
+}
+.container-below-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px ;
+}
+.paragprah {
+    margin-left: 25px;
+}
+.list {
+    padding-left: 30px;
+}
+.list span {
+    color: #008000;
+    font-weight: bold;
+}
+table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid #008000;
+    
+}

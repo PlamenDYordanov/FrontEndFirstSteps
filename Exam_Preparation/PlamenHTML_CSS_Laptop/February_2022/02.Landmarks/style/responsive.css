@@ -1,0 +1,54 @@
+/* TODO */
+@media screen and (max-width: 600px) {
+  .envelope {
+    display: none;
+  }
+  #main-menu img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  #main-menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  #main-menu ul li {
+    text-align: center;
+    border: 1px solid red;
+    width: 100px;
+  }
+  #main-menu ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  #left-aside {
+    display: flex;
+    justify-content: space-around;
+  }
+  #left-aside article {
+    border: none;
+  }
+  #news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+  #news article {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #right-aside {
+    width: 95%;
+    margin-left: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer ul {
+    width: 30%;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", "sans-serif";
+}
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface", "sans-serif";
+}
+body {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+header {
+  background-image: url(./image/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper-header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 7px 8px 12px -3px rgba(82, 82, 82, 1);
+}
+.divider {
+  height: 1px;
+  width: 130px;
+  border-bottom: 1px solid white;
+}
+.wrapper-header-right {
+  position: absolute;
+  left: 69%;
+  top: 12%;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(to left, rgb(206, 204, 199) ,rgb(212, 201, 182));
+  border-radius: 6px;
+  box-shadow: 7px 8px 12px -3px rgba(82, 82, 82, 1);
+}
+.wrapper-header-right p {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  margin-right: 20px;
+}
+#quotes {
+  justify-content: right;
+  width: 100%;
+  height: 50px;
+  padding-right: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(135, 121, 97);
+}
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "hero  aside"
+    "footer  aside";
+}
+.hero-section {
+  grid-area: hero;
+  padding-left: 100px;
+  text-indent: 20px;
+  background: rgb(240, 240, 240);
+}
+.hero-section h2 {
+    padding-top: 80px;
+    font-size: 42px;
+}
+.hero-section ul{
+    font-size: 26px;
+}
+.hero-section ul li {
+    margin-bottom: 20px;
+}
+.company-information {
+  grid-area: aside;
+  padding-left: 30px;
+}
+.contacts {
+    
+  background: rgb(240, 240, 240);
+  grid-area: footer;
+}
+.contacts h2 {
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: 42px;
+}
+
+.first-container  {
+    padding-top: 50px;
+}
+.first-container,.second-container,.third-container
+,.fourt-container {
+    padding-bottom: 180px;
+}
+.first-row {
+    padding-top: 40px;
+  font-size: 75px;
+  line-height: 50px;
+}
+aside {
+  width: 500px;
+  height: 100%;
+  background-color: rgb(206, 204, 199);
+  color: white;
+}
+#p {
+    font-size: 20px;
+    color: rgb(45, 43, 43);
+}
+.container-contacts {
+    padding-left: 100px;
+    font-size:18px ;
+    padding-top: 20px;
+}
+footer {
+    
+}
+.border {
+    border-top: solid 1px;
+    width: 100%;
+}
+button,input {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+input {
+   margin-left: 100px;
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px ;
+    background-color: rgb(200, 200, 200);
+    border-radius: 6px;
+}
+button {
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(76, 144, 76);
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+
+  }

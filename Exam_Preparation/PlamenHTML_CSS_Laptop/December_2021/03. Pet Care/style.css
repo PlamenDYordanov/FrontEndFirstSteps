@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  max-width: 1980px;
+}
+header {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 20px;
+}
+header img {
+  width: 200px;
+  height: 50px;
+  object-position: center;
+}
+header ul li {
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 24px;
+}
+.hero-section {
+  position: relative;
+  background-image: url(./images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  margin-bottom: 250px;
+}
+.hero-section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-desc {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 500px;
+  height: 400px;
+  color: white;
+}
+.hero-desc h1 {
+  font-size: 55px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.hero-desc h1 span {
+  font-weight: 900;
+}
+.hero-desc p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.hero-desc button {
+  font-size: 24px;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+  color: rgb(255, 38, 0);
+}
+.main-section {
+  width: 65%;
+  margin: 0 auto;
+}
+.test {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  height: 450px;
+}
+.main-section img {
+  position: absolute;
+  top: 15%;
+}
+.first-service,
+.second-service,
+.third-service {
+  padding-top: 250px;
+  border: 1px solid rgba(255, 229, 85, 0.993);
+  border-radius: 6px;
+}
+.main-backgraund-1 {
+  left: 10%;
+}
+.picture-1 {
+  margin-top: 30px;
+  left: 13%;
+}
+.picture-2 {
+  left: 45%;
+  margin-top: 30px;
+}
+.main-backgraund-2 {
+  left: 43%;
+}
+.picture-3 {
+  left: 80%;
+  margin-top: 30px;
+}
+.main-backgraund-3 {
+  left: 76%;
+}
+.main-div {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.main-div h2 {
+    font-size: 52px;
+}
+.main-div p {
+    font-size: 20px;
+}
+.test h2, .test p {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.test p  {
+    color: gray;
+    font-size: 18px;
+}
+.test h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.secondary-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondary-section h2 {
+    font-size: 42px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.secondary-section h2 span {
+    font-weight: bold;
+}
+.secondary-section-desc {
+    width: 500px;
+    margin-left: 60px;
+}
+.secondary-section-desc p {
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.secondary-section-desc button {
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #f14334, #ed5b05);
+}
+.third-section {
+background-image: url(./images/cats-bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+text-align: center;
+padding-top: 180px;
+color: white;
+}
+.third-section h2 {
+    margin-bottom: 20px;
+    font-size: 52px;
+    font-weight: bold;
+}
+.third-container-desc {
+    width: 700px;
+    margin: 0 auto;
+}
+.third-section p {
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.third-section button {
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+  color: rgb(255, 38, 0);
+  margin-right: 20px;
+}
+.third-section span {
+    font-size: 20px;
+}
+.number {
+     font-weight: bold;
+}
+footer {
+    margin:  0 auto;
+    text-align: center;
+    width: 75%;
+    display: grid;
+    grid-template-areas: "1 2 3 4";
+}
+footer img {
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+footer h2 {
+    margin-bottom: 30px;
+}
+footer p {
+    color: gray;
+    margin-bottom: 5px;
+}
+footer div:nth-child(4) {
+    padding-left: 80px;
+}

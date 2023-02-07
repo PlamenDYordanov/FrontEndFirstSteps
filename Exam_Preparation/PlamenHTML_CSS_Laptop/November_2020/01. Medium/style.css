@@ -1,0 +1,48 @@
+body {
+    width: 70%;
+    margin: 0px auto;
+}
+h1 {
+    font-size: 42px;
+    color: #292929;
+    margin: 0px;
+}
+header p{
+    margin: 0px;
+    color: #757990;
+}
+.container {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.left {
+    align-self: flex-end;
+    
+}
+
+button {
+    padding: 5px 50px;
+    border-radius: 2px;
+    border: none;
+    background-color: #03a87c;
+    color: white;
+    margin-bottom: 15px;
+}
+.right h2 {
+    font-size: 18px;
+}
+.right p, span {
+    color: #8c7575; 
+   line-height: 20px;
+}
+span {
+    background-color: #cefde9;
+}
+.divider {
+    width: 250px;
+    height: 1px;
+    background-color: #9a9a9a;
+    margin: 0px auto;
+}

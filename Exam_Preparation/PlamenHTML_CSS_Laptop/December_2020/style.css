@@ -1,0 +1,143 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+html {
+  font-family: Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.tittle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tittle-container p {
+  color: #5c4252;
+}
+h1 {
+  color: #2c383b;
+}
+.divider {
+  width: 2px;
+  height: 50px;
+  background-color: #b4b4b4;
+  margin: 0 10px;
+}
+nav ul {
+  display: flex;
+  gap: 2px;
+}
+
+nav ul li {
+  padding: 10px 10px;
+  background-color: #ececec;
+  color: #234274;
+}
+.home-page {
+  background-color: #e24e2a;
+  color: white;
+}
+.hero-container {
+  text-align: center;
+}
+.hero-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./banner.jpg);
+}
+.hero-desc {
+  width: 100%;
+  height: 150px;
+  background-color: #e24e2a;
+}
+.hero-desc p {
+  margin: 0 auto;
+  width: 85%;
+  color: white;
+  padding-top: 40px;
+  font-weight: 100;
+}
+.main-info {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  background-color: #383838;
+  gap: 20px;
+}
+.main-container {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+i {
+  font-size: 30px;
+  padding: 30px;
+  background-color: #e24e2a;
+}
+.main-container h2 {
+  font-size: 16px;
+  border-bottom: 1px solid#64686c;
+}
+.main-container p {
+  color: #64686c;
+  font-size: 12px;
+}
+.main-container-first {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main-container-last {
+  margin-right: 20px;
+}
+.secondary-section {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.secondary-section h2 {
+  color: #555555;
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+.secondary-section p {
+  color: #a2a2aa;
+  margin-top: 0px;
+}
+.secondary-section button {
+  color: white;
+  background-color: #1b9772;
+  border: none;
+  padding: 10px 30px;
+}
+.third-section {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: #383838;
+}
+.third-section-container {
+  text-align: center;
+}
+.third-section h2 {
+  font-size: 16px;
+  color: white;
+}
+.third-section p {
+  font-size: 12px;
+  color: #64686c;
+}
+.third-section-container-fisrt {
+    margin-left: 20px;
+}
+.third-section-container-last {
+    margin-right: 20px;
+}
