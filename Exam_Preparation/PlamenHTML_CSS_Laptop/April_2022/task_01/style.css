@@ -5,12 +5,12 @@ body {
     max-width: 1440px;
     width: 85%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 main{
     display: flex;
 }
 .container-hero{
-    flex-direction: column;
     width: 500px;
     height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./image/cover.jpg);

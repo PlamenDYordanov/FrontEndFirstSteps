@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+    .home-left, .home-right, .home-container01  {
+       display: none;
+    }
+    .navbar-logo-title {
+        margin-left: 0px;
+    }
+    .home-hero1  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .home-container03 {
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    /* shop by category */
+    .home-cards-container  {
+        justify-content: start;
+        gap: 10px
+    }
+
+    .category-card-category-card img {
+        width: 100%;
+        height: 200px;
+    }
+    .category-card-category-card {
+        width: 49%;
+    }
+    .section-container {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .home-content {
+        margin: 0;
+    }
+    .home-content span:first-child {
+        padding-top: 30px;
+    }
+    .home-content span:last-child {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .home-btn {
+        margin-bottom: 20px;
+    }
+    .home-image6 {
+        width: 100%;
+    }
+    .home-container08  {
+        justify-content: center;
+    }
+    .blog-post-card-blog-post-card {
+        max-width: 100%;
+    }
+    .home-main {
+        padding-bottom: 30px;
+    }
+  
+    .home-footer1 {
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+    .home-links-container {
+        flex-direction: column;
+    }
+   
+  
+}
